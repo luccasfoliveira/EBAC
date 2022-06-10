@@ -1,0 +1,24 @@
+{
+INÍCIO
+
+	inteiro termo, numero_tab, contador
+
+	numero_tab <- 0
+	termo <- 0
+	contador <- 1
+
+	escreva("Olá humano, vamos calcular!")
+	escreva("Eu sou bom em tabuadas")
+
+	leia("Qual é o número que iremos tabular? ")
+	leia(numero_tab)
+
+	enquanto(contador <= 10)
+	{
+		termo <- termo + numero_tab
+		escreva(termo)
+		contador <- contador + 1	
+	}
+
+FIM
+}
